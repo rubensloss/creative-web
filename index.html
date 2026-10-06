@@ -171,7 +171,7 @@
       <!-- Category Filter Tabs (Interactive) -->
       <div class="flex flex-wrap items-center justify-center gap-2.5 max-w-3xl mx-auto mb-6">
         <button onclick="filterCategory('all')" id="tab-all" class="filter-tab px-4 py-2 rounded-xl text-xs font-mono font-bold uppercase tracking-wider transition-all bg-sky-500 text-black shadow-lg shadow-sky-500/20">
-          ✦ Todas as Soluções (4)
+          ✦ Todas as Soluções (5)
         </button>
         <button onclick="filterCategory('insurtech')" id="tab-insurtech" class="filter-tab px-4 py-2 rounded-xl text-xs font-mono font-bold uppercase tracking-wider transition-all bg-slate-900 text-slate-300 border border-white/10 hover:border-sky-400/50">
           Corretoras de Seguros
@@ -369,7 +369,89 @@
         </article>
 
         <!-- =================================================================== -->
-        <!-- PRODUTO 3: RECUPERIA (LOCALIZAÇÃO DE ATIVOS) -->
+        <!-- PRODUTO 3: VIVANT PASS (RESERVAS & RECEPÇÃO) -->
+        <!-- =================================================================== -->
+        <article data-category="traveltech" class="product-card glass-card rounded-3xl p-6 sm:p-8 border border-indigo-500/25 flex flex-col justify-between relative overflow-hidden group">
+          <div class="absolute -right-16 -top-16 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none group-hover:bg-indigo-500/20 transition-all"></div>
+
+          <div>
+            <!-- Header Badges -->
+            <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="font-mono text-[11px] uppercase font-bold px-2.5 py-1 rounded bg-indigo-500/10 text-indigo-300 border border-indigo-500/30 flex items-center gap-1.5">
+                <i class="ph ph-ticket"></i> Traveltech & Gestão de Receptivos
+              </span>
+              <span class="font-mono text-[10px] uppercase font-bold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20 flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Produção Online
+              </span>
+            </div>
+
+            <!-- Title & Subtitle -->
+            <div class="flex items-center gap-3.5 mb-3">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 via-indigo-600 to-purple-800 flex items-center justify-center text-white text-2xl font-black shadow-lg shadow-indigo-500/20">
+                <i class="ph ph-ticket"></i>
+              </div>
+              <div>
+                <h2 class="font-display font-extrabold text-2xl text-white">Vivant Pass</h2>
+                <p class="text-xs text-indigo-300 font-mono">Reservas de Passeios & Cockpit de Embarque</p>
+              </div>
+            </div>
+
+            <p class="text-slate-300 text-sm leading-relaxed mb-6 font-light">
+              Plataforma para operadoras e receptivos de turismo. Catálogo com saídas e controle de vagas em tempo real, pagamento via Pix com trava temporária, emissão de voucher com QR Code e cockpit para escala de veículos e rotas de pousadas.
+            </p>
+
+            <!-- Key Metric Strip -->
+            <div class="grid grid-cols-3 gap-2 p-3 rounded-2xl bg-slate-900/80 border border-white/5 font-mono text-center mb-6">
+              <div>
+                <div class="text-indigo-400 font-extrabold text-base">Vagas Reais</div>
+                <div class="text-[9.5px] text-slate-400 uppercase">Estoque ao Vivo</div>
+              </div>
+              <div>
+                <div class="text-emerald-400 font-extrabold text-base">Pix Direto</div>
+                <div class="text-[9.5px] text-slate-400 uppercase">Trava de Vaga</div>
+              </div>
+              <div>
+                <div class="text-cyan-400 font-extrabold text-base">Voucher QR</div>
+                <div class="text-[9.5px] text-slate-400 uppercase">Validação Rápida</div>
+              </div>
+            </div>
+
+            <!-- Features Checklist -->
+            <ul class="space-y-2.5 font-mono text-xs text-slate-300 mb-8">
+              <li class="flex items-center gap-2">
+                <i class="ph ph-check-circle text-indigo-400 font-bold text-base"></i>
+                <span>Catálogo de Saídas com Controle de Vagas por Veículo</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i class="ph ph-check-circle text-indigo-400 font-bold text-base"></i>
+                <span>Checkout Instantâneo com Pix e Confirmação Automática</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i class="ph ph-check-circle text-indigo-400 font-bold text-base"></i>
+                <span>Voucher Digital com QR Code e Validação no Embarque (Suporte Offline)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i class="ph ph-check-circle text-indigo-400 font-bold text-base"></i>
+                <span>Cockpit Operacional com Rota de Busca em Pousadas e Escala de Guias</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="space-y-2.5 pt-4 border-t border-white/10">
+            <a href="https://rubensloss.github.io/vivant-pass/" target="_blank" rel="noopener noreferrer" class="w-full py-3 px-4 rounded-xl bg-indigo-500 hover:bg-indigo-400 text-white font-extrabold text-xs uppercase tracking-wider text-center flex items-center justify-center gap-1.5 transition-all shadow-lg shadow-indigo-500/20">
+              <i class="ph ph-ticket text-base"></i>
+              <span>Visitar Plataforma Vivant Pass</span>
+            </a>
+            <a href="https://wa.me/5527988140076?text=Ol%C3%A1!%20Quero%20conhecer%20a%20solu%C3%A7%C3%A3o%20Vivant%20Pass%20para%20passeios%20e%20receptivos." target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 rounded-xl bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-300 font-mono font-bold text-[11px] uppercase tracking-wider text-center border border-indigo-500/30 flex items-center justify-center gap-1.5 transition-colors">
+              <i class="ph ph-whatsapp-logo text-base"></i>
+              <span>Falar sobre o Vivant Pass</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- =================================================================== -->
+        <!-- PRODUTO 4: RECUPERIA (LOCALIZAÇÃO DE ATIVOS) -->
         <!-- =================================================================== -->
         <article data-category="lawtech" class="product-card glass-card rounded-3xl p-6 sm:p-8 border border-amber-500/30 flex flex-col justify-between relative overflow-hidden group">
           <div class="absolute -right-16 -top-16 w-48 h-48 bg-amber-500/10 rounded-full blur-3xl pointer-events-none group-hover:bg-amber-500/20 transition-all"></div>
@@ -451,7 +533,7 @@
         </article>
 
         <!-- =================================================================== -->
-        <!-- PRODUTO 4: GEOPULSE -->
+        <!-- PRODUTO 5: GEOPULSE -->
         <!-- =================================================================== -->
         <article data-category="martech" class="product-card glass-card rounded-3xl p-6 sm:p-8 border border-cyan-500/25 flex flex-col justify-between relative overflow-hidden group">
           <div class="absolute -right-16 -top-16 w-48 h-48 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none group-hover:bg-cyan-500/20 transition-all"></div>
